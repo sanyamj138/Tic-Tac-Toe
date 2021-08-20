@@ -139,7 +139,7 @@
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         android:textStyle="italic"
-        android:visibility="invisible"
+        android:visibility="visible"
         app:backgroundTint="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

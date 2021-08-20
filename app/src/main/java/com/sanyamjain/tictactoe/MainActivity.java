@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
 
                     textView.setText(String.format("%s Win!", winner));
 
-                    button.setVisibility(View.VISIBLE);
+                    // button.setVisibility(View.VISIBLE);
                     textView.setVisibility(View.VISIBLE);
 
                 }
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void again(View view)
     {
-        Button button = (Button) findViewById(R.id.button);
+        // Button button = (Button) findViewById(R.id.button);
         TextView textView = (TextView) findViewById(R.id.textView);
         TextView textView3 = (TextView) findViewById(R.id.textView3);
 
@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
         androidx.gridlayout.widget.GridLayout gridLayout = findViewById(R.id.gridLayout);
 
         textView3.setVisibility(View.VISIBLE);
-        button.setVisibility(View.INVISIBLE);
+        // button.setVisibility(View.INVISIBLE);
         textView.setVisibility(View.INVISIBLE);
 
 
