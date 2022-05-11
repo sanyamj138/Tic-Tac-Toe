@@ -29,8 +29,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void tap(View view) {
 
+        Button button = findViewById(R.id.button);
         textView3 = findViewById(R.id.textView3);
-
+        button.setVisibility(View.VISIBLE);
         textView3.setVisibility(View.INVISIBLE);
 
         ImageView counter = (ImageView) view;
@@ -60,8 +61,6 @@ public class MainActivity extends AppCompatActivity {
                     } else {
                         winner = "Team Circle";
                     }
-
-                    Button button = (Button) findViewById(R.id.button);
                     // button = findViewById(R.id.button);
                     TextView textView = (TextView) findViewById(R.id.textView);
                     // textView = findViewById(R.id.textView);
@@ -69,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
                     textView.setText(String.format("%s Win!", winner));
 
                     button.setVisibility(View.VISIBLE);
+                    button.setText("Play Again");
                     textView.setVisibility(View.VISIBLE);
 
                 }
